@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from sklearn.linear_model import LinearRegression
 
-CAMINHO_PARQUET = "Data/Criminais/SPDadosCriminais_CONSOLIDADO.parquet"
+CAMINHO_PARQUET = "Data/Criminais/SPDadosCriminais_CONSOLIDADO_reduzido.parquet"
 
 # Só as colunas realmente usadas no dashboard.
 # Adicione outras aqui se for usar em mais gráficos futuramente.
